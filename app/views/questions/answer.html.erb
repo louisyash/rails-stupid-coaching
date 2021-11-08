@@ -1,0 +1,11 @@
+<h1 class="border">Stupid Coach 2.0</h1>
+
+<div class="container py-5">
+  <p><%= params["query"]  %></p>
+  <p><strong>-You</strong></p>
+  <p><%= @answers %></p>
+  <p><strong>-Coach</strong></p>
+
+<%= link_to "Ask another question", ask_path %>
+
+</div>
